@@ -1,0 +1,5 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/3dwd8lN3)
+
+Task 4:
+
+The experiment design that I did is to run the two new models against some models from part one, specifically iterative deepening, MCTS, random, and greedy.  It was taking FOREVER to run, so I set the cutoff time for IDS and MCTS to 0.2 seconds, which obviously makes them a lot worse but it saves me time.  I also ran 20 games for each model and didn't really have time to run all the part 1 models againsnt each other which explains the blank space in the graph.  I put the results in a plot which is attached to this submission.  I got pretty interesting results, the policy agent did really bad, which I expected since my policy agent is pretty bad, and the learned heuristic one did really well actually considering it's using greedy search, outperforming the models I tested it with..  It would probably do a lot better if I did IDS with the learned heuristic I think.
