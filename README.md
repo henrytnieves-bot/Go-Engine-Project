@@ -4,4 +4,4 @@ The learned heuristic was trained using the provided 5x5 data, augmented with se
 
 We also implemented adaptive timing: the agent uses more search time in the early game and gradually reduces time in later stages to avoid running out of the 15-second limit with 1-second increments.
 
-Evaluations show that the agent consistently outperforms all other agents tested.
+This agent was better than other methods we tested.
